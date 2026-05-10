@@ -1,8 +1,7 @@
 import fs from "fs/promises";
 import { NextResponse } from "next/server";
 
-const ATTACHED_LOGO_PATH =
-  "C:\\Users\\sewlesewb\\.cursor\\projects\\d-Personal-projects-trinity-lutheran-college-trinity-college\\assets\\c__Users_sewlesewb_AppData_Roaming_Cursor_User_workspaceStorage_61b0945853fc292a0b12cc8168ac28e8_images_image-47be3058-d7c3-4ae4-a261-b69429d2c80a.png";
+const ATTACHED_LOGO_PATH ="public\images\logo\photo_2026-05-10_19-01-38.jpg"
 
 export async function GET() {
   try {
