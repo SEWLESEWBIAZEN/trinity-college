@@ -24,7 +24,7 @@ export default function AdminHeader({ user }: { user: { name: string; email: str
         </div>
 
         <button
-          onClick={() => signOut({ callbackUrl: "/admin/login" })}
+          onClick={() => signOut({ callbackUrl: "/admin" })}
           className="p-2 rounded-lg hover:bg-red-50 hover:text-red-500 text-stone-400 transition-colors"
           title="Sign out"
         >
